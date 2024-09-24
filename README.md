@@ -7,7 +7,7 @@ Real time collaborative document editor.
 - Next 14
 - Clerk
 - Tailwindcss
-- 
+- Liveblock
 
 Instal dependencies and execute: <br />
 ```
