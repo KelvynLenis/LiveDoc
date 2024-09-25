@@ -15,6 +15,7 @@ import Loader from '../Loader';
 import FloatingToolbarPlugin from './plugins/FloatingToolbarPlugin';
 import { useThreads } from '@liveblocks/react/suspense';
 import Comments from '../Comments';
+import { DeleteModal } from '../DeleteModal';
 
 function Placeholder() {
   return <div className="editor-placeholder">Enter some rich text...</div>;
@@ -41,11 +42,11 @@ export function Editor({ roomId, currentUserType }: { roomId: string; currentUse
         <div className='toolblock-wrapper flex min-w-full justify-between'>
           <ToolbarPlugin />
 
-          {/* {
+          {
             currentUserType === 'editor' && (
-              <DeleteModal roomid={roomId} />
+              <DeleteModal roomId={roomId} />
             )
-          } */}
+          }
         </div>
 
         <div className='editor-wrapper flex flex-col items-center justify-start'>
