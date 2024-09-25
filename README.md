@@ -2,6 +2,10 @@
 
 Real time collaborative document editor.
 
+![image](https://github.com/user-attachments/assets/31fc561d-bcf6-491d-81f2-e64931e807a4)
+![image](https://github.com/user-attachments/assets/325a1b81-081f-4a20-94a0-8b7d92d23fba)
+
+
 ## Stacks
 
 - Next 14
